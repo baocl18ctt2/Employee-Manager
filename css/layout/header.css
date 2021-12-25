@@ -1,0 +1,145 @@
+.m-header {
+    width: calc(100% - 200px);
+    height: 48px;
+    /* background-color: rgb(233, 212, 212); */
+    border-bottom: 2px solid #E5E5E5;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    justify-content: space-between;
+    position: relative;
+}
+
+
+/* Phần header left */
+
+.m-header .m-header-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.m-header .m-header-logo {
+    width: 24px;
+    height: 24px;
+    padding-left: 10px;
+    margin: 0 10px;
+    cursor: pointer;
+    background: url(../../content/Resource/img/Sprites.64af8f61.svg) no-repeat -843px -30px;
+}
+
+.m-header .m-header-branch {
+    cursor: pointer;
+    display: flex!important;
+    align-items: center;
+}
+
+.m-header .m-header-branch-name {
+    white-space: nowrap;
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.m-header .m-header-branch-item-center {
+    width: 14px;
+    height: 14px;
+    transform: rotate(90deg);
+    margin-left: 10px;
+    background: url(../../content/Resource/img/Sprites.64af8f61.svg) no-repeat -80px -360px;
+}
+
+
+/* Phần header right */
+
+.m-header .m-header-bell {
+    padding-right: 20px;
+    width: 24px;
+    height: 24px;
+    min-width: 24px;
+    min-height: 24px;
+    background: url(../../content/Resource/img/Sprites.64af8f61.svg) no-repeat -788px -30px;
+    cursor: pointer;
+}
+
+.m-header .m-header-right {
+    display: flex;
+    padding-right: 20px;
+    margin-right: 20px;
+    align-items: center;
+}
+
+.m-header .m-header-right-avatar {
+    width: 32px;
+    height: 32px;
+    min-width: 32px;
+    min-height: 32px;
+    border-radius: 50%;
+    background: url(../../content/Resource/img/Sprites.64af8f61.svg) no-repeat -352px -894px;
+}
+
+.m-header .m-header-name {
+    white-space: nowrap;
+    max-width: 400px;
+    padding: 10px;
+}
+
+.m-header-right-icon-dropdown {
+    width: 14px;
+    height: 14px;
+    min-width: 14px;
+    min-height: 14px;
+    background: url(../../content/Resource/img/Sprites.64af8f61.svg) no-repeat -1076px -32px;
+    cursor: pointer;
+}
+
+
+/* Phần header left chọn chi nhánh làm việc */
+
+.m-header .m-select-brank-work {
+    display: none;
+    width: 400px;
+    border: 1px solid #babec5;
+    background: #fff;
+    color: #212111;
+    position: absolute;
+    top: 40px;
+    left: 30px;
+    border-radius: 3px;
+    padding: 0 20px 20px;
+    z-index: 99;
+}
+
+.m-select-brank-work .m-header-title {
+    font-size: 18px;
+    font-weight: 700;
+    margin: 16px auto 16px 20px;
+}
+
+
+/* Phần work option */
+
+.m-work-list {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+.m-work-option {
+    margin-right: 15px;
+}
+
+.m-work-option input {
+    height: 16px;
+    width: 16px;
+}
+
+.m-work-option label {
+    font-size: 13px;
+}
+
+.add-color {
+    background-color: #2ca01c;
+    color: #fff;
+}

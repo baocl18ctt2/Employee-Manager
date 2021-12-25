@@ -1,0 +1,147 @@
+/* Phần table header */
+
+.m-table {
+    border-collapse: separate;
+    border-spacing: 0;
+    padding-bottom: 1px;
+    width: 100%;
+    position: relative;
+    border: none;
+}
+
+.m-table thead tr {
+    position: sticky;
+    top: -1px;
+    right: 0;
+    z-index: 1;
+}
+
+.m-table tbody tr td {
+    background-color: white;
+}
+
+.m-table tr:hover td {
+    background-color: #F3F8F8
+}
+
+.m-table td,
+.m-table th {
+    border: 0.2px solid #ddd;
+    padding-left: 8px;
+    font-size: 13px;
+    padding-right: 10px;
+    height: 48px;
+    box-sizing: border-box;
+}
+
+.m-table td:first-child,
+.m-table th:first-child {
+    padding-left: 16px;
+    padding-right: 16px;
+    position: sticky;
+    top: 0;
+    left: -1px;
+    border-left: 1px solid #fff;
+}
+
+.m-table td:nth-child(2),
+.m-table th:nth-child(2) {
+    position: sticky;
+    left: 49px;
+}
+
+.m-table thead th {
+    border-top: none;
+    white-space: nowrap;
+}
+
+.m-table th:last-child,
+.m-table td:last-child {
+    border-right: none;
+    top: 0;
+    right: 0px;
+    cursor: pointer;
+}
+
+.m-table tbody tr {
+    height: 48px;
+}
+
+.m-table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: #ECEEF1;
+    color: #333;
+}
+
+.m-table tr th:first-child div,
+.m-table tr td:first-child div {
+    height: 18px;
+    width: 18px;
+    border: 1px solid #bbb;
+    cursor: pointer;
+    background-color: white;
+    box-sizing: border-box;
+    line-height: 18px;
+    text-align: center;
+}
+
+.m-table tr th:first-child .m-table-checked,
+.m-table tr td:first-child .m-table-checked {
+    border: 1px solid #35BF22;
+    animation: rotate 0.1s;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(-90deg)
+    }
+    to {
+        transform: rotate(0deg)
+    }
+}
+
+.m-table tr th:first-child .m-table-checked i,
+.m-table tr td:first-child .m-table-checked i {
+    display: block;
+    color: #35BF22;
+}
+
+
+/* Phần table ở tbl Header */
+
+#tblHeader.m-table-header {
+    border-spacing: unset;
+    border: unset;
+    border-collapse: collapse;
+    width: 100%;
+    /* border-bottom: 5px solid #BBBBBB; */
+}
+
+#cbxHeader .m-combobox-data {
+    height: 300px;
+    overflow: scroll;
+}
+
+#tblHeader.m-table-header thead {
+    position: sticky;
+    top: 0;
+    background-color: rgb(255, 254, 254);
+}
+
+#tblHeader.m-table-header tr {
+    height: 40px;
+    /* border-bottom: 1px solid #ddd; */
+    cursor: pointer;
+}
+
+#tblHeader.m-table-header td,
+th {
+    padding: 0 8px;
+    border: none;
+}
+
+#tblHeader.m-table-header tbody tr:hover {
+    background-color: #e5e5e5;
+    color: #35BF22;
+}

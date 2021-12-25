@@ -1,0 +1,133 @@
+.m-content-table .m-content-footer-page {
+    bottom: 0px;
+    height: 48px;
+    /* background-color: beige; */
+    /* background: white; */
+    box-sizing: border-box;
+    display: flex;
+    /* overflow: auto; */
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/* Phần left */
+
+.m-table-paging-left {
+    padding-left: 10px;
+    font-weight: 500;
+}
+
+.lenItem {
+    display: inline;
+    font-weight: bold;
+}
+
+
+/* Phần right */
+
+.m-table-paging-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.m-combobox-wrapper {
+    display: flex;
+    /* flex: 1; */
+    align-items: center;
+    border: 1px solid #bbb;
+    height: 30px;
+    padding-left: 10px;
+    position: relative;
+}
+
+.m-combobox-wrapper {
+    background-color: #fff;
+}
+
+.m-combobox-pagging-list {
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 35px;
+    width: 100%;
+    left: 0;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border: 1px solid #bbb;
+    background-color: white;
+    display: none;
+}
+
+.m-combobox-item {
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.m-combobox-item:hover {
+    color: #2CA01C;
+    background-color: #e5e5e5;
+}
+
+.m-combobox-button {
+    background: #fff;
+}
+
+.m-combobox-button {
+    display: flex;
+    width: 20px;
+    border: 0;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-left: 12px;
+}
+
+.m-combobox-button:hover {
+    background-color: #bbb;
+}
+
+.m-combobox-item-active {
+    background-color: #2CA01C;
+    color: white;
+}
+
+.paging-number-wrapper {
+    display: flex;
+    margin: 0px 30px;
+}
+
+.m-number-text-before,
+.m-number-text-after {
+    margin: 0px 5px;
+}
+
+.m-pagging-number {
+    display: flex;
+    margin: 0px 10px;
+}
+
+.m-number {
+    margin: 0px 10px;
+    cursor: pointer;
+}
+
+
+/* .m-number {
+    margin-right: 10px;
+} */
+
+.add-border-items {
+    background-color: #bbb;
+}
+
+#btnAfterPaging,
+#btnBeforePaging {
+    color: #bbb;
+}
+
+#btnAfterPaging.m-number-text-after,
+#btnBeforePaging.m-number-text-before {
+    color: black;
+    cursor: pointer;
+}

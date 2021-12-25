@@ -1,0 +1,107 @@
+.m-row-combobox {
+    margin-bottom: 10px;
+}
+
+.m-row-combobox .m-comboxbox-title {
+    font-size: 12px;
+    font-weight: 700;
+    color: #212121;
+    margin-bottom: 10px;
+}
+
+.m-comboxbox-title {
+    font-size: 12px;
+    font-weight: 700;
+    color: #212121;
+    padding-bottom: var(--control-label-bottom-space);
+}
+
+.mcombobox {
+    display: flex;
+    position: relative;
+}
+
+.mcombobox input {
+    height: 40px;
+    border: 1px solid #bbbbbb;
+    border-radius: 4px;
+    min-width: 100px;
+    outline: unset;
+    box-sizing: border-box;
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 50px;
+}
+
+.mcombobox button {
+    display: flex;
+    position: absolute;
+    top: 1px;
+    right: 1px;
+    bottom: 1px;
+    width: 39px;
+    height: 38px;
+    border-radius: 0 4px 4px 0;
+    border: 0;
+    /* border-left: 1px solid #bbb; */
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    background-color: #fff;
+}
+
+.mcombobox button:hover {
+    background-color: #bbb;
+}
+
+.mcombobox .m-combobox-data {
+    display: none;
+    position: absolute;
+    top: calc(100% + 1px);
+    width: 100%;
+    box-shadow: 0px 2px 5px;
+    box-sizing: border-box;
+    background-color: #fff;
+    /* padding: 0px 10px; */
+}
+
+.mcombobox .m-combobox-item {
+    font-size: 14px;
+    padding: 14px;
+    /* border-bottom: 1px solid #bbb; */
+    cursor: pointer;
+}
+
+.mcombobox .m-combobox-item:hover {
+    color: #2ca01c;
+    background-color: rgb(226, 222, 222);
+}
+
+.m-combobox-item-hover {
+    color: #2ca01c;
+    background-color: rgb(226, 222, 222);
+}
+
+.m-btn-icon {
+    cursor: pointer;
+    transform: rotate(180deg);
+    transition: transform .15s linear;
+    height: 16px;
+    min-width: 16px;
+    min-height: 16px;
+    background: url(../../content/Resource/img/Sprites.64af8f61.svg) no-repeat -560px -359px;
+}
+
+.m-btn-icon.m-btn-icon-transform {
+    transform: rotate(0deg);
+    transition: transform .15s linear;
+}
+
+.rotation90 {
+    transform: rotate( 180deg);
+    transition: transform .15s linear;
+}
+
+.m-combobox-data.m-combox-data-bc {
+    z-index: 1;
+}

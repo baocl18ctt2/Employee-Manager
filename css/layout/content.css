@@ -1,0 +1,232 @@
+.m-content {
+    width: calc(100% - 200px);
+    height: calc(100vh - 48px);
+    float: left;
+    background-color: #E5E5E5;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.m-content .m-padding-12 {
+    padding: 5px 12px 0px 12px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    overflow: auto;
+}
+
+
+/* Phần content header */
+
+.m-content-header {
+    height: 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: #bbb; */
+    margin-bottom: 5px;
+}
+
+.m-content-header-title {
+    display: block;
+    line-height: 48px;
+    font-size: 30px;
+    font-weight: 700;
+    z-index: 1;
+}
+
+
+/*  phần 2 chia làm 3 phần */
+
+.m-content-table {
+    flex: 1;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    /* position: relative; */
+    overflow: auto;
+}
+
+
+/* Phần 2.1 Phần table filter */
+
+.m-table-filter {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    position: relative;
+    justify-content: center;
+    width: 300px;
+    position: absolute;
+    right: 40;
+    right: 60px;
+}
+
+.m-table-filter .m-icon-search {
+    position: absolute;
+    right: 10px;
+    width: 16px;
+    height: 16px;
+    min-width: 16px;
+    min-height: 16px;
+    background: url(../../content/Resource/img/Sprites.64af8f61.svg) no-repeat;
+    background-position: -992px -360px;
+}
+
+.m-block {
+    display: flex;
+    position: relative;
+    justify-content: end;
+    /* justify-content: space-between; */
+    align-items: center;
+    margin: 20px 0px;
+}
+
+.m-block .m-delete-all {
+    position: absolute;
+    left: 0;
+    margin-left: 10px;
+    display: none;
+}
+
+.m-btn.m-btn-color-delete {
+    background-color: rgb(230, 24, 24)
+}
+
+.m-btn.m-btn-color-delete:hover {
+    background-color: red;
+}
+
+.m-block .m-btn.m-icon-refresh {
+    width: 24px;
+    height: 24px;
+    min-width: 24px;
+    min-height: 24px;
+    background: url(https://actappg1.misacdn.net/img/Sprites.064341bf.svg) no-repeat -423px -201px;
+    cursor: pointer;
+}
+
+
+/* Phần 2.2 Phần hiển thị bảng */
+
+.m-content-table .m-show-data-table {
+    flex: 1;
+    /* background-color: #bbb; */
+    overflow: auto;
+}
+
+.m-content-table .m-grid {
+    padding: 0px 10px;
+}
+
+
+/* Phần checkbox */
+
+.ms-multi-checkall {
+    width: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.ms-checkbox {
+    transition: all .2s ease;
+    cursor: pointer;
+    position: relative;
+    width: 18px;
+    height: 18px;
+    border-radius: 3px;
+    box-sizing: border-box;
+    border: 1px solid #afafaf;
+    background: #fff;
+}
+
+.ms-checkbox .m-checkbox-active {
+    display: none;
+    width: 16px;
+    height: 16px;
+    min-width: 16px;
+    min-height: 16px;
+    background: url(https://actappg1.misacdn.net/img/Sprites.064341bf.svg) no-repeat -1224px -360px;
+    cursor: pointer;
+}
+
+
+/* .m-table .ms-multi-checklist {
+    table-layout: fixed;
+    width: 30px !important;
+} */
+
+.m-features {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.m-features-text {
+    margin-right: 10px;
+    color: #0075FF;
+    font-weight: bold;
+}
+
+.m-icon-dropdown {
+    width: 16px;
+    height: 16px;
+    min-width: 16px;
+    min-height: 16px;
+    background: url(https://actappg1.misacdn.net/img/Sprites.064341bf.svg) no-repeat -896px -359px;
+}
+
+.m-features .m-features-grid {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    top: 25px;
+    left: -32px;
+    border: 1px solid #bbb;
+    z-index: 2;
+}
+
+.m-features .m-one-features {
+    padding-left: 10px;
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    text-align: left;
+}
+
+.m-features .m-one-features:hover {
+    background-color: #E5E5E5;
+    color: #2ca01c;
+}
+
+.add-border-dropdown {
+    display: flex;
+    width: 25px;
+    height: 20px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #0075FF;
+}
+
+.static-col {
+    position: sticky;
+    z-index: 3;
+    text-transform: uppercase;
+}
+
+.m-text-algin-left {
+    text-align: left;
+}
+
+.m-text-algin-center {
+    text-align: center;
+}
+
+.m-text-algin-right {
+    text-align: right;
+}
+
+
+/* Phần 2.3 Phần đánh số trang*/

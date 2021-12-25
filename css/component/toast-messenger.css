@@ -1,0 +1,120 @@
+.m-toast-msg-box {
+    position: fixed;
+    bottom: 24px;
+    right: 24px;
+}
+
+.m-toast-msg-box .m-toast-msg-item {
+    display: none;
+}
+
+.m-toast-msg {
+    height: 48px;
+    border-radius: 4px;
+    box-shadow: 0px 3px 6px;
+    /* min-width: 300px; */
+    width: 300px;
+    display: flex;
+    align-items: center;
+    background-color: #FFCECE;
+}
+
+.m-toast-msg .m-toast-msg-icon {
+    width: 26px;
+    height: 26px;
+    margin-left: 24px;
+    margin-right: 8px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 26px;
+    flex-shrink: 0;
+    /* color: red; */
+}
+
+.m-toast-msg .m-toast-msg-icon.m-color-add {
+    color: rgb(88, 3, 245);
+}
+
+.m-toast-msg .m-toast-msg-icon.m-color-delete {
+    color: red;
+}
+
+.m-toast-msg .m-toast-msg-icon.m-color-edit {
+    color: rgb(255, 255, 0);
+}
+
+.m-toast-msg .m-toast-msg-text {
+    flex: 1;
+    font-size: 14px;
+    color: #000000;
+}
+
+.m-toast-msg .m-toast-msg-close {
+    width: 26px;
+    height: 26px;
+    margin-right: 8px;
+    line-height: 26px;
+    text-align: center;
+    color: rgb(243, 14, 14);
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.m-toast-msg-close.m-toast-msg-success {
+    color: rgb(46, 59, 247);
+}
+
+.m-toast-msg-close.m-toast-msg-edit {
+    color: rgb(255, 255, 0);
+}
+
+.m-toast-msg.m-toast-msg-color {
+    background-color: rgb(166, 166, 211);
+}
+
+.m-toast-msg.m-color-background-edit {
+    background-color: rgb(198, 228, 118);
+}
+
+
+/* Phần toast-msg thông báo lỗi */
+
+.m-toast-msg-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .4);
+    width: 100%;
+    height: 100vh;
+    z-index: 97;
+    display: none;
+}
+
+.m1-toast-msg {
+    position: absolute;
+    right: -150px;
+    bottom: 30px;
+    transform: translate(-50%, -50%);
+    border-radius: 3px;
+    background-color: #fff;
+    max-width: 900px;
+    width: 300px;
+    z-index: 99;
+    padding: 5px 15px;
+    display: flex;
+    align-items: center;
+    border: 5px solid #fff;
+}
+
+.m1-toast-msg-infor {
+    display: flex;
+    align-items: center;
+}
+
+.m1-toast-msg-icon {
+    margin-right: 20px;
+    font-size: 25px;
+    color: red;
+}

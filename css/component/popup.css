@@ -1,0 +1,212 @@
+.m-popup-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .4);
+    width: 100%;
+    height: 100vh;
+    z-index: 98;
+    display: none;
+}
+
+.m-popup {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 3px;
+    padding: 10px 20px;
+    background-color: #fff;
+    max-width: 900px;
+    width: 900px;
+    z-index: 99;
+}
+
+.m-popup .m-popup-header {
+    display: flex;
+    padding: 10px 0px;
+}
+
+.m-popup .m-poup-name-title {
+    font-size: 27px;
+    font-weight: bold;
+    /* text-transform: uppercase; */
+}
+
+.m-popup .m-grid-checkbox {
+    display: flex;
+    align-items: center;
+    padding: 5px 20px 0px 20px;
+}
+
+.ms-margin-8 {
+    margin-right: 8px;
+}
+
+.m-popup .m-name-checkbox {
+    font-size: 14px;
+}
+
+.m-popup .m-popup-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: flex;
+}
+
+
+/* .mi-24 {
+    width: 24px;
+    height: 24px;
+    min-width: 24px;
+    min-height: 24px;
+} */
+
+.m-icon-help {
+    width: 24px;
+    height: 24px;
+    min-width: 24px;
+    min-height: 24px;
+    cursor: pointer;
+    background: url(https://actappg1.misacdn.net/img/Sprites.064341bf.svg) no-repeat -89px -144px;
+    margin-right: 10px;
+}
+
+.m-icon-close {
+    cursor: pointer;
+    width: 24px;
+    height: 24px;
+    min-width: 24px;
+    min-height: 24px;
+    background: url(https://actappg1.misacdn.net/img/Sprites.064341bf.svg) no-repeat -144px -144px;
+}
+
+
+/* Phần 2. content */
+
+.m-popup .m-popup-content {
+    display: block;
+    flex-direction: column;
+}
+
+.m-popup-content .m-content-first {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.m-popup-content .m-col-left {
+    width: 50%;
+}
+
+.m-popup-name-attribute {
+    display: flex;
+    align-items: center;
+}
+
+.m-popup-name-attribute .m-popup-name {
+    margin: 5px;
+    font-weight: 550;
+}
+
+.m-popup-grid-input .m-input-msg {
+    height: 24px;
+    line-height: 24px;
+    background: black;
+    position: absolute;
+    color: #fff;
+    padding-left: 4px;
+    padding-right: 4px;
+    left: 9px;
+    bottom: -25px;
+    display: none;
+    min-width: 200px;
+    z-index: 999;
+}
+
+.m-popup-grid-input {
+    margin-right: 10px;
+    position: relative;
+}
+
+.mcombobox button.m-border-icon-dropdown {
+    width: 30px;
+    height: 30px;
+}
+
+.m-popup-content .m-col-right {
+    width: 50%;
+    padding-left: 5px;
+}
+
+
+/* Phần select radio */
+
+.ms-radio {
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 1px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ms-radio .ms-radio-border-checked-true {
+    display: none;
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    background-color: #2ca01c;
+    z-index: 1;
+    justify-content: center;
+}
+
+.m-select-gender-grid {
+    display: flex;
+    margin-right: 10px;
+}
+
+.m-select-gender {
+    display: flex;
+    margin: 5px 12px;
+}
+
+.m-gender {
+    margin-left: 10px;
+}
+
+.m-popup-content .m-content-second {
+    margin-bottom: 5px;
+}
+
+.m-popup-content .m-content-third {
+    margin-bottom: 10px;
+}
+
+.m-icon-color {
+    color: red;
+}
+
+
+/* Phần 3. popup footer */
+
+.m-popup-footer {
+    margin-top: 50px;
+    /* height: 100px; */
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px;
+    /* align-items: center; */
+    border-top: 1px solid #bbb;
+}
+
+.m-popup-footer-right {
+    display: flex;
+}
+
+.m-btn-margin {
+    margin-right: 10px;
+}

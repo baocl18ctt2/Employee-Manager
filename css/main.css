@@ -1,0 +1,35 @@
+@import url('./layout/navbar.css');
+@import url('./layout/header.css');
+@import url('./layout/content.css');
+@import url('./component/combobox.css');
+@import url('./component/input.css');
+@import url('./component/table.css');
+@import url('./component/button.css');
+@import url('./component/popup.css');
+@import url('./common/common.css');
+@import url('./component/paging.css');
+@import url('./component/modal.css');
+@import url('./component/toast-messenger.css');
+body {
+    font-family: notosans;
+    font-size: 13px;
+    background: #f8f8f8;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: notosans;
+    src: url('../content/Resource/fonts/notosans-regular.2cb88a13.woff2');
+}
+
+@font-face {
+    font-family: notosans-bold;
+    src: url('../content/Resource/fonts/notosans-bold.3ede5aff.woff2');
+}
+
+@font-face {
+    font-family: notosans-italic;
+    src: url('../content/Resource/fonts/notosans-italic.1c1aaac9.woff2');
+}

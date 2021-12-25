@@ -1,0 +1,82 @@
+input:focus {
+    border-color: #019160;
+}
+
+input.m-input {
+    border: 1px solid #bbb;
+    border-radius: 4px;
+    height: 40px;
+    padding-left: 16px;
+    outline: none;
+    white-space: nowrap;
+    width: 300px;
+    box-sizing: border-box;
+}
+
+.m-input::placeholder {
+    font-size: 13px;
+    color: #bbb;
+    font-style: italic;
+}
+
+.m-input:focus {
+    border-color: #019160;
+}
+
+.m-input.input-error {
+    border-color: #FF4747;
+    margin-left: 10px;
+}
+
+input.m-input-Search::placeholder {
+    font-size: 13px;
+}
+
+input.m-input-search {
+    padding-right: 42px;
+}
+
+input.ms-checkbox-input {
+    position: absolute;
+    width: 10%;
+    height: 100%;
+    opacity: 0;
+    z-index: 200;
+    cursor: pointer;
+}
+
+.m-input.m-input-code,
+.m-input.m-input-dob,
+.m-input.m-input-doin {
+    height: 32px;
+    width: 180px;
+    padding: 3px 10px;
+}
+
+.m-input.m-input-name,
+.m-input.m-input-identifyNumber,
+.m-input.m-input-phoneNumber,
+.m-input.m-input-email,
+.m-input.m-input-phoneNumberStationary {
+    height: 32px;
+    width: 250px;
+    padding: 3px 10px;
+}
+
+.m-input.m-input-department,
+.m-input.m-input-position,
+.m-input.m-input-identifyPlace {
+    height: 32px;
+    width: 440px;
+    padding: 3px 10px;
+}
+
+.m-input.m-input-address {
+    height: 32px;
+    width: 895px;
+    padding: 3px 10px;
+}
+
+.m-input-required.invalid {
+    border: 1px solid red;
+}
