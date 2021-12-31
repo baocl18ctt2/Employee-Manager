@@ -25,7 +25,7 @@
     padding-left: 10px;
     margin: 0 10px;
     cursor: pointer;
-    background: url(../../content/Resource/img/Sprites.64af8f61.svg) no-repeat -843px -30px;
+    background: url(../../content/Resource/img/images.svg) no-repeat -843px -30px;
 }
 
 .m-header .m-header-branch {
@@ -47,7 +47,7 @@
     height: 14px;
     transform: rotate(90deg);
     margin-left: 10px;
-    background: url(../../content/Resource/img/Sprites.64af8f61.svg) no-repeat -80px -360px;
+    background: url(../../content/Resource/img/images.svg) no-repeat -80px -360px;
 }
 
 
@@ -59,7 +59,7 @@
     height: 24px;
     min-width: 24px;
     min-height: 24px;
-    background: url(../../content/Resource/img/Sprites.64af8f61.svg) no-repeat -788px -30px;
+    background: url(../../content/Resource/img/images.svg) no-repeat -788px -30px;
     cursor: pointer;
 }
 
@@ -76,7 +76,7 @@
     min-width: 32px;
     min-height: 32px;
     border-radius: 50%;
-    background: url(../../content/Resource/img/Sprites.64af8f61.svg) no-repeat -352px -894px;
+    background: url(../../content/Resource/img/images.svg) no-repeat -352px -894px;
 }
 
 .m-header .m-header-name {
@@ -90,7 +90,7 @@
     height: 14px;
     min-width: 14px;
     min-height: 14px;
-    background: url(../../content/Resource/img/Sprites.64af8f61.svg) no-repeat -1076px -32px;
+    background: url(../../content/Resource/img/images.svg) no-repeat -1076px -32px;
     cursor: pointer;
 }
 

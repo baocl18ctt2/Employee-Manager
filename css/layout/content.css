@@ -103,7 +103,7 @@
     height: 24px;
     min-width: 24px;
     min-height: 24px;
-    background: url(https://actappg1.misacdn.net/img/Sprites.064341bf.svg) no-repeat -423px -201px;
+    background: url(../../content/Resource/img/images.svg) no-repeat -423px -201px;
     cursor: pointer;
 }
 
@@ -147,7 +147,7 @@
     height: 16px;
     min-width: 16px;
     min-height: 16px;
-    background: url(https://actappg1.misacdn.net/img/Sprites.064341bf.svg) no-repeat -1224px -360px;
+    background: url(../../content/Resource/img/images.svg) no-repeat -1224px -360px;
     cursor: pointer;
 }
 
@@ -175,7 +175,7 @@
     height: 16px;
     min-width: 16px;
     min-height: 16px;
-    background: url(https://actappg1.misacdn.net/img/Sprites.064341bf.svg) no-repeat -896px -359px;
+    background: url(../../content/Resource/img/images.svg) no-repeat -896px -359px;
 }
 
 .m-features .m-features-grid {
